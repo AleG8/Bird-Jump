@@ -6,7 +6,7 @@ let flappy = new Bird(
     canvas.width / 2 - 100, 
     canvas.height / 2 - 25, 
     70, 70,
-    "https://cdn-icons.flaticon.com/png/512/4884/premium/4884784.png?token=exp=1645027510~hmac=20f1788b79c11de8ac25750a6fe32a04");
+    "../seagull.png");
 let imgObstacle = new Image();
 imgObstacle.src = 'https://cdn-icons-png.flaticon.com/512/4666/4666467.png';
 let gravity = 0.43;
